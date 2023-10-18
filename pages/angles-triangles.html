@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Angles of Triangles</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../styles/angles-triangles.css" />
+  </head>
+  <body>
+    <header>
+      
+      <h1>Check whether angles form a triangle</h1>
+      
+    </header>
+    <main>
+      <section class="angles-triangles-leftSection">
+        <form id="check" class="angles-triangles-form">
+          <label class="input-label" for="">
+            <p>Enter first angle</p>
+            <input
+              class="input-text"
+              required
+              type="number"
+              id="first-angle"
+              min="0"
+              max="180"
+            />
+          </label>
+          <label class="input-label" for="">
+            <p>Enter second angle</p>
+            <input
+              class="input-text"
+              required
+              type="number"
+              id="second-angle"
+              min="0"
+              max="180"
+            />
+          </label>
+          <label class="input-label" for="">
+            <p>Enter third angle</p>
+            <input
+              class="input-text"
+              required
+              type="number"
+              id="third-angle"
+              min="0"
+              max="180"
+            />
+          </label>
+          <button class="btn-check" type="submit">Check</button>
+        </form>
+        <p id="output" class="output"></p>
+      </section>
+      
+    
+    <script src="../scripts/angles-triangles.js"></script>
+  </body>
+</html>
